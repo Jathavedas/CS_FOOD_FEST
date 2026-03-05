@@ -959,7 +959,53 @@ image: "/sweetcorn.jpg",
 category: "Snacks",
 ingredients: ["Sweet Corn", "Salt", "Butter"],
 nutrition: { calories: 110, protein: "3g", carbs: "22g", fat: "2g" }
+},
+{
+id: 106,
+name: "Kappa",
+price: 25,
+image: "/kappa.jpg",
+category: "Main",
+ingredients: ["Tapioca", "Salt", "Coconut Oil"],
+nutrition: { calories: 180, protein: "2g", carbs: "42g", fat: "1g" }
+},
+{
+id: 107,
+name: "Chemb",
+price: 25,
+image: "/chemb.jpg",
+category: "Snacks",
+ingredients: ["Taro Root", "Salt"],
+nutrition: { calories: 140, protein: "2g", carbs: "34g", fat: "0g" }
+},
+{
+id: 108,
+name: "Kachil",
+price: 25,
+image: "/kachil.jpg",
+category: "Snacks",
+ingredients: ["Purple Yam", "Salt"],
+nutrition: { calories: 150, protein: "2g", carbs: "36g", fat: "0g" }
+},
+{
+id: 109,
+name: "Chappathi",
+price: 20,
+image: "/chappathi.jpg",
+category: "Main",
+ingredients: ["Wheat Flour", "Water", "Salt"],
+nutrition: { calories: 120, protein: "3g", carbs: "22g", fat: "2g" }
+},
+{
+id: 110,
+name: "Chicken Fry",
+price: 80,
+image: "/chickenfry.jpg",
+category: "Main",
+ingredients: ["Chicken", "Spices", "Oil"],
+nutrition: { calories: 350, protein: "28g", carbs: "5g", fat: "24g" }
 }
+
 
 
 
