@@ -211,15 +211,15 @@ export const foodItems: FoodItem[] = [
   ingredients: ["Egg", "Gram Flour", "Spices"],
   nutrition: { calories: 200, protein: "8g", carbs: "15g", fat: "10g" }
 },
-{
-  id: 21,
-  name: "Unnakaya",
-  price: 15,
-  image: "/unnakaya.jpg",
-  category: "Snacks",
-  ingredients: ["Banana", "Coconut", "Sugar", "Nuts"],
-  nutrition: { calories: 240, protein: "4g", carbs: "38g", fat: "9g" }
-},
+// {
+//   id: 21,
+//   name: "Unnakaya",
+//   price: 15,
+//   image: "/unnakaya.jpg",
+//   category: "Snacks",
+//   ingredients: ["Banana", "Coconut", "Sugar", "Nuts"],
+//   nutrition: { calories: 240, protein: "4g", carbs: "38g", fat: "9g" }
+// },
 {
   id: 22,
   name: "Bread Sandwich",
