@@ -972,7 +972,7 @@ nutrition: { calories: 180, protein: "2g", carbs: "42g", fat: "1g" }
 {
 id: 107,
 name: "Chemb",
-price: 25,
+price: 20,
 image: "/chemb.jpg",
 category: "Snacks",
 ingredients: ["Taro Root", "Salt"],
@@ -981,7 +981,7 @@ nutrition: { calories: 140, protein: "2g", carbs: "34g", fat: "0g" }
 {
 id: 108,
 name: "Kachil",
-price: 25,
+price: 20,
 image: "/kachil.jpg",
 category: "Snacks",
 ingredients: ["Purple Yam", "Salt"],
@@ -990,7 +990,7 @@ nutrition: { calories: 150, protein: "2g", carbs: "36g", fat: "0g" }
 {
 id: 109,
 name: "Chappathi",
-price: 20,
+price: 10,
 image: "/chappathi.jpg",
 category: "Main",
 ingredients: ["Wheat Flour", "Water", "Salt"],
@@ -999,7 +999,7 @@ nutrition: { calories: 120, protein: "3g", carbs: "22g", fat: "2g" }
 {
 id: 110,
 name: "Chicken Fry",
-price: 80,
+price: 30,
 image: "/chickenfry.jpg",
 category: "Main",
 ingredients: ["Chicken", "Spices", "Oil"],
