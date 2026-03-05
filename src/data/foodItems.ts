@@ -18,7 +18,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 1,
     name: "Idli",
-    price: 30,
+    price: 10,
     image: "/idli.jpg",
     category: "Breakfast",
     description: "Soft steamed rice cakes served with chutney and sambar",
@@ -28,7 +28,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 2,
     name: "Appam",
-    price: 40,
+    price: 10,
     image: "/appam.jpg",
     category: "Breakfast",
     description: "Soft fermented rice pancake with crispy edges",
@@ -38,7 +38,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 3,
     name: "Dosa",
-    price: 50,
+    price: 5,
     image: "/dosa.jpg",
     category: "Breakfast",
     description: "Crispy fermented rice and lentil crepe",
@@ -48,7 +48,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 4,
     name: "Porotta",
-    price: 40,
+    price: 10,
     image: "/porotta.jpg",
     category: "Main",
     description: "Layered Kerala flatbread",
@@ -58,7 +58,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 5,
     name: "Ghee Roast",
-    price: 70,
+    price: 35,
     image: "/gheerost.jpg",
     category: "Breakfast",
     description: "Crispy dosa roasted with ghee",
@@ -68,7 +68,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 6,
     name: "Masala Dosa",
-    price: 80,
+    price: 50,
     image: "/masaladosa.jpg",
     category: "Breakfast",
     description: "Dosa filled with spiced potato masala",
@@ -78,7 +78,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 7,
     name: "Vegetable Dosa",
-    price: 90,
+    price: 20,
     image: "/vegetabledosa.jpg",
     category: "Breakfast",
     description: "Dosa stuffed with mixed vegetables",
@@ -88,7 +88,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 8,
     name: "Ada",
-    price: 35,
+    price: 10,
     image: "/ada.jpg",
     category: "Snacks",
     description: "Traditional steamed rice cake with coconut filling",
@@ -98,7 +98,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 9,
     name: "Kumbil Appam",
-    price: 35,
+    price: 10,
     image: "/kumbilappam.jpg",
     category: "Snacks",
     description: "Steamed rice and jaggery cake wrapped in leaf",
@@ -108,7 +108,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 10,
     name: "Vattayappam",
-    price: 40,
+    price: 10,
     image: "/vattayappam.jpg",
     category: "Snacks",
     description: "Soft steamed rice cake with coconut",
@@ -118,7 +118,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 11,
     name: "Kozhukatta",
-    price: 30,
+    price: 10,
     image: "/kozhukatta.jpg",
     category: "Snacks",
     description: "Steamed rice dumplings with coconut and jaggery",
@@ -128,7 +128,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 12,
     name: "Idiyappam",
-    price: 40,
+    price: 8,
     image: "/idiyappam.jpg",
     category: "Breakfast",
     description: "Steamed string hoppers made from rice flour",
@@ -138,7 +138,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 13,
     name: "Puttu (Wheat)",
-    price: 45,
+    price: 15,
     image: "/puttu-wheat.jpg",
     category: "Breakfast",
     description: "Steamed wheat flour with coconut layers",
@@ -148,7 +148,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 14,
     name: "Puttu (Beetroot)",
-    price: 50,
+    price: 15,
     image: "/puttu-beetroot.jpg",
     category: "Breakfast",
     description: "Colorful beetroot flavored puttu",
@@ -158,7 +158,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 15,
     name: "Puttu (Carrot)",
-    price: 50,
+    price: 15,
     image: "/puttu-carrot.jpg",
     category: "Breakfast",
     description: "Healthy carrot flavored puttu",
@@ -168,7 +168,7 @@ export const foodItems: FoodItem[] = [
   {
     id: 16,
     name: "Puttu (Rice)",
-    price: 40,
+    price: 15,
     image: "/puttu-rice.jpg",
     category: "Breakfast",
     description: "Classic Kerala rice puttu with coconut",
@@ -178,7 +178,7 @@ export const foodItems: FoodItem[] = [
   {
   id: 17,
   name: "Parippu Vada",
-  price: 15,
+  price: 7,
   image: "/parippuvada.jpg",
   category: "Snacks",
   ingredients: ["Chana Dal", "Onion", "Curry Leaves", "Chili"],
@@ -187,7 +187,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 18,
   name: "Pazhampori",
-  price: 20,
+  price: 10,
   image: "/pazhampori.jpg",
   category: "Snacks",
   ingredients: ["Ripe Banana", "Flour", "Sugar", "Oil"],
@@ -195,7 +195,7 @@ export const foodItems: FoodItem[] = [
 },
 {
   id: 19,
-  name: "Mulak Bajji",
+  name: "Mul1k Bajji Set 3",
   price: 15,
   image: "/mulakbajji.jpg",
   category: "Snacks",
@@ -205,7 +205,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 20,
   name: "Egg Bajji",
-  price: 25,
+  price: 10,
   image: "/eggbajji.jpg",
   category: "Snacks",
   ingredients: ["Egg", "Gram Flour", "Spices"],
@@ -214,7 +214,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 21,
   name: "Unnakaya",
-  price: 25,
+  price: 15,
   image: "/unnakaya.jpg",
   category: "Snacks",
   ingredients: ["Banana", "Coconut", "Sugar", "Nuts"],
@@ -232,7 +232,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 23,
   name: "Kaya Bajji",
-  price: 20,
+  price: 10,
   image: "/kayabajji.jpg",
   category: "Snacks",
   ingredients: ["Raw Banana", "Gram Flour"],
@@ -241,7 +241,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 24,
   name: "Bread Toast",
-  price: 20,
+  price: 10,
   image: "/breadtoast.jpg",
   category: "Snacks",
   ingredients: ["Bread", "Butter"],
@@ -250,7 +250,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 25,
   name: "Bread Porichathu",
-  price: 25,
+  price: 15,
   image: "/breadfry.jpg",
   category: "Snacks",
   ingredients: ["Bread", "Egg", "Spices"],
@@ -259,7 +259,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 26,
   name: "Ari Unda",
-  price: 15,
+  price: 5,
   image: "/ariunda.jpg",
   category: "Snacks",
   ingredients: ["Rice Flour", "Jaggery", "Coconut"],
@@ -268,7 +268,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 27,
   name: "Aval Nanachathu",
-  price: 20,
+  price: 10,
   image: "/avalnanachathu.jpg",
   category: "Snacks",
   ingredients: ["Flattened Rice", "Banana", "Sugar", "Coconut"],
@@ -277,7 +277,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 28,
   name: "Aval Velayichathu",
-  price: 25,
+  price: 15,
   image: "/avalvelayichathu.jpg",
   category: "Snacks",
   ingredients: ["Flattened Rice", "Jaggery", "Coconut"],
@@ -305,7 +305,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 31,
   name: "Milk",
-  price: 15,
+  price: 10,
   image: "/milk.jpg",
   category: "Beverages",
   ingredients: ["Milk"],
@@ -314,7 +314,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 32,
   name: "Boost",
-  price: 25,
+  price: 15,
   image: "/boost.jpg",
   category: "Beverages",
   ingredients: ["Milk", "Boost Powder"],
@@ -323,30 +323,30 @@ export const foodItems: FoodItem[] = [
 {
   id: 33,
   name: "Horlicks",
-  price: 25,
+  price: 15,
   image: "/horlicks.jpg",
   category: "Beverages",
   ingredients: ["Milk", "Horlicks"],
   nutrition: { calories: 180, protein: "6g", carbs: "28g", fat: "5g" }
 },
-{
-  id: 34,
-  name: "Badam Tea",
-  price: 20,
-  image: "/badamtea.jpg",
-  category: "Beverages",
-  ingredients: ["Tea", "Milk", "Almond Flavor"],
-  nutrition: { calories: 110, protein: "3g", carbs: "15g", fat: "4g" }
-},
-{
-  id: 35,
-  name: "Green Tea",
-  price: 15,
-  image: "/greentea.jpg",
-  category: "Beverages",
-  ingredients: ["Green Tea Leaves"],
-  nutrition: { calories: 5, protein: "0g", carbs: "1g", fat: "0g" }
-},
+// {
+//   id: 34,
+//   name: "Badam Tea",
+//   price: 20,
+//   image: "/badamtea.jpg",
+//   category: "Beverages",
+//   ingredients: ["Tea", "Milk", "Almond Flavor"],
+//   nutrition: { calories: 110, protein: "3g", carbs: "15g", fat: "4g" }
+// },
+// {
+//   id: 35,
+//   name: "Green Tea",
+//   price: 15,
+//   image: "/greentea.jpg",
+//   category: "Beverages",
+//   ingredients: ["Green Tea Leaves"],
+//   nutrition: { calories: 5, protein: "0g", carbs: "1g", fat: "0g" }
+// },
 {
   id: 36,
   name: "Masala Tea",
@@ -359,7 +359,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 37,
   name: "Black Coffee",
-  price: 15,
+  price: 10,
   image: "/blackcoffee.jpg",
   category: "Beverages",
   ingredients: ["Coffee"],
@@ -367,8 +367,8 @@ export const foodItems: FoodItem[] = [
 },
 {
   id: 38,
-  name: "Lime Juice",
-  price: 20,
+  name: "Salt Lime Juice",
+  price: 10,
   image: "/limejuice.jpg",
   category: "Beverages",
   ingredients: ["Lime", "Sugar", "Water"],
@@ -377,7 +377,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 39,
   name: "Soda Lime",
-  price: 25,
+  price: 15,
   image: "/sodalime.jpg",
   category: "Beverages",
   ingredients: ["Lime", "Soda"],
@@ -386,25 +386,25 @@ export const foodItems: FoodItem[] = [
 {
   id: 40,
   name: "Mohabbath Ka Sharbat",
-  price: 40,
+  price: 20,
   image: "/mohabbath.jpg",
   category: "Beverages",
   ingredients: ["Milk", "Watermelon", "Rose Syrup"],
   nutrition: { calories: 210, protein: "6g", carbs: "40g", fat: "5g" }
 },
-{
-  id: 41,
-  name: "Achaar Soda",
-  price: 25,
-  image: "/acharsoda.jpg",
-  category: "Beverages",
-  ingredients: ["Soda", "Pickle Masala", "Salt"],
-  nutrition: { calories: 35, protein: "0g", carbs: "8g", fat: "0g" }
-},
+// {
+//   id: 41,
+//   name: "Achaar Soda",
+//   price: 25,
+//   image: "/acharsoda.jpg",
+//   category: "Beverages",
+//   ingredients: ["Soda", "Pickle Masala", "Salt"],
+//   nutrition: { calories: 35, protein: "0g", carbs: "8g", fat: "0g" }
+// },
 {
   id: 42,
   name: "Mor Soda",
-  price: 20,
+  price: 15,
   image: "/morsoda.jpg",
   category: "Beverages",
   ingredients: ["Buttermilk", "Soda", "Salt"],
@@ -413,7 +413,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 43,
   name: "Chamathi Podi",
-  price: 15,
+  price: 5,
   image: "/chamathipodi.jpg",
   category: "Chutney",
   ingredients: ["Coconut", "Chili", "Salt"],
@@ -422,7 +422,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 44,
   name: "Chamanthi",
-  price: 15,
+  price: 5,
   image: "/chamanthi.jpg",
   category: "Chutney",
   ingredients: ["Coconut", "Green Chili", "Curry Leaves"],
@@ -431,7 +431,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 45,
   name: "Mulak Thirumiyath",
-  price: 15,
+  price: 5,
   image: "/mulakthirumiyath.jpg",
   category: "Chutney",
   ingredients: ["Dry Chili", "Coconut Oil", "Salt"],
@@ -440,7 +440,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 46,
   name: "Manga Chamanthi",
-  price: 20,
+  price: 5,
   image: "/mangachamanthi.jpg",
   category: "Chutney",
   ingredients: ["Raw Mango", "Coconut", "Chili"],
@@ -449,7 +449,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 47,
   name: "Nellika Chamanthi",
-  price: 20,
+  price: 5,
   image: "/nellika.jpg",
   category: "Chutney",
   ingredients: ["Amla", "Coconut", "Chili"],
@@ -458,7 +458,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 48,
   name: "Kakarachi Fry",
-  price: 35,
+  price: 30,
   image: "/kakarachi.jpg",
   category: "Seafood",
   ingredients: ["Kakarachi Fish", "Spices", "Oil"],
@@ -467,7 +467,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 49,
   name: "Kakarachi Thoran",
-  price: 40,
+  price: 30,
   image: "/kakarachithoran.jpg",
   category: "Seafood",
   ingredients: ["Fish", "Coconut", "Spices"],
@@ -475,8 +475,8 @@ export const foodItems: FoodItem[] = [
 },
 {
   id: 50,
-  name: "Quail Egg Bullseye",
-  price: 30,
+  name: "Quail Egg Bullseye 3",
+  price: 20,
   image: "/kadamotta.jpg",
   category: "Egg",
   ingredients: ["Quail Eggs", "Oil", "Salt"],
@@ -485,7 +485,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 51,
   name: "Quail Egg Boiled",
-  price: 25,
+  price: 7,
   image: "/kadamottaboil.jpg",
   category: "Egg",
   ingredients: ["Quail Eggs"],
@@ -494,7 +494,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 52,
   name: "Quail Egg Masala",
-  price: 35,
+  price: 20,
   image: "/kadamottamasala.jpg",
   category: "Egg",
   ingredients: ["Quail Eggs", "Onion", "Spices"],
@@ -502,8 +502,8 @@ export const foodItems: FoodItem[] = [
 },
 {
   id: 53,
-  name: "Quail Egg Omelette",
-  price: 35,
+  name: "Quail Egg Omelette 3",
+  price: 25,
   image: "/kadamottaomelette.jpg",
   category: "Egg",
   ingredients: ["Quail Eggs", "Onion", "Chili"],
@@ -512,7 +512,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 54,
   name: "Chicken Curry",
-  price: 90,
+  price: 40,
   image: "/chickencurry.jpg",
   category: "Main",
   ingredients: ["Chicken", "Onion", "Spices"],
@@ -521,7 +521,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 55,
   name: "Egg Curry",
-  price: 70,
+  price: 20,
   image: "/eggcurry.jpg",
   category: "Main",
   ingredients: ["Egg", "Onion", "Tomato", "Spices"],
@@ -530,7 +530,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 56,
   name: "Beef Curry",
-  price: 100,
+  price: 50,
   image: "/beefcurry.jpg",
   category: "Main",
   ingredients: ["Beef", "Spices", "Onion"],
@@ -539,7 +539,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 57,
   name: "Fish Curry",
-  price: 90,
+  price: 35,
   image: "/fishcurry.jpg",
   category: "Seafood",
   ingredients: ["Fish", "Tamarind", "Spices"],
@@ -548,7 +548,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 58,
   name: "Paneer Butter Masala",
-  price: 90,
+  price: 45,
   image: "/paneerbutter.jpg",
   category: "Main",
   ingredients: ["Paneer", "Butter", "Tomato"],
@@ -557,7 +557,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 59,
   name: "Butter Chicken",
-  price: 120,
+  price: 50,
   image: "/butterchicken.jpg",
   category: "Main",
   ingredients: ["Chicken", "Butter", "Cream"],
@@ -566,7 +566,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 60,
   name: "Soya Bean Roast",
-  price: 70,
+  price: 30,
   image: "/soyaroast.jpg",
   category: "Main",
   ingredients: ["Soya Chunks", "Onion", "Spices"],
@@ -575,7 +575,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 61,
   name: "Tomato Chutney",
-  price: 20,
+  price: 5,
   image: "/tomatochutney.jpg",
   category: "Chutney",
   ingredients: ["Tomato", "Onion", "Chili"],
@@ -584,7 +584,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 62,
   name: "Dry Shrimp Chamanthi",
-  price: 35,
+  price: 15,
   image: "/chemmen.jpg",
   category: "Seafood",
   ingredients: ["Dry Shrimp", "Coconut", "Chili"],
@@ -593,7 +593,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 63,
   name: "Dry Fish Fry",
-  price: 40,
+  price: 20,
   image: "/dryfish.jpg",
   category: "Seafood",
   ingredients: ["Dry Fish", "Oil", "Spices"],
@@ -611,7 +611,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 65,
   name: "Ethakka Puzhungiyath",
-  price: 25,
+  price: 15,
   image: "/ethakka.jpg",
   category: "Snacks",
   ingredients: ["Raw Banana", "Salt"],
@@ -620,7 +620,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 66,
   name: "Egg Boiled",
-  price: 20,
+  price: 15,
   image: "/eggboil.jpg",
   category: "Egg",
   ingredients: ["Egg"],
@@ -629,7 +629,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 67,
   name: "Omelette",
-  price: 30,
+  price: 20,
   image: "/omelette.jpg",
   category: "Egg",
   ingredients: ["Egg", "Onion", "Chili"],
@@ -647,7 +647,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 69,
   name: "Veg Salad",
-  price: 40,
+  price: 20,
   image: "/vegsalad.jpg",
   category: "Salad",
   ingredients: ["Cucumber", "Carrot", "Tomato"],
@@ -665,7 +665,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 71,
   name: "Chicken Salad",
-  price: 80,
+  price: 40,
   image: "/chickensalad.jpg",
   category: "Salad",
   ingredients: ["Chicken", "Vegetables", "Mayonnaise"],
@@ -674,7 +674,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 72,
   name: "Chapati Roll",
-  price: 50,
+  price: 40,
   image: "/chapatiroll.jpg",
   category: "Street Food",
   ingredients: ["Chapati", "Chicken", "Onion"],
@@ -683,7 +683,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 73,
   name: "Chocolate Dipped Fruits",
-  price: 60,
+  price: 10,
   image: "/chocofruit.jpg",
   category: "Dessert",
   ingredients: ["Fruit", "Chocolate"],
@@ -698,72 +698,56 @@ export const foodItems: FoodItem[] = [
   ingredients: ["Raw Mango", "Chili", "Salt"],
   nutrition: { calories: 80, protein: "1g", carbs: "18g", fat: "1g" }
 },
-{
-  id: 75,
-  name: "Chicken Momos",
-  price: 70,
-  image: "/chickenmomos.jpg",
-  category: "Street Food",
-  ingredients: ["Chicken", "Flour", "Spices"],
-  nutrition: { calories: 260, protein: "18g", carbs: "28g", fat: "8g" }
-},
-{
-  id: 76,
-  name: "Veg Momos",
-  price: 60,
-  image: "/vegmomos.jpg",
-  category: "Street Food",
-  ingredients: ["Vegetables", "Flour"],
-  nutrition: { calories: 220, protein: "7g", carbs: "34g", fat: "6g" }
-},
+// {
+//   id: 75,
+//   name: "Chicken Momos",
+//   price: 70,
+//   image: "/chickenmomos.jpg",
+//   category: "Street Food",
+//   ingredients: ["Chicken", "Flour", "Spices"],
+//   nutrition: { calories: 260, protein: "18g", carbs: "28g", fat: "8g" }
+// },
+// {
+//   id: 76,
+//   name: "Veg Momos",
+//   price: 60,
+//   image: "/vegmomos.jpg",
+//   category: "Street Food",
+//   ingredients: ["Vegetables", "Flour"],
+//   nutrition: { calories: 220, protein: "7g", carbs: "34g", fat: "6g" }
+// },
 {
   id: 77,
   name: "Egg Salad",
-  price: 60,
+  price: 20,
   image: "/eggsalad.jpg",
   category: "Salad",
   ingredients: ["Egg", "Vegetables", "Mayonnaise"],
   nutrition: { calories: 200, protein: "12g", carbs: "8g", fat: "14g" }
 },
-{
-  id: 78,
-  name: "Pani Puri",
-  price: 40,
-  image: "/panipuri.jpg",
-  category: "Street Food",
-  ingredients: ["Puri", "Potato", "Spiced Water"],
-  nutrition: { calories: 180, protein: "4g", carbs: "32g", fat: "4g" }
-},
-{
-  id: 79,
-  name: "Pav Bhaji",
-  price: 70,
-  image: "/pavbhaji.jpg",
-  category: "Street Food",
-  ingredients: ["Bread", "Vegetable Bhaji", "Butter"],
-  nutrition: { calories: 320, protein: "8g", carbs: "45g", fat: "12g" }
-},{
-  id: 80,
-  name: "Bonvita",
-  price: 25,
-  image: "/bonvita.jpg",
-  category: "Beverages",
-  ingredients: ["Milk", "Bonvita Powder"],
-  nutrition: { calories: 180, protein: "6g", carbs: "28g", fat: "5g" }
-},
-{
-  id: 81,
-  name: "Rose Tea",
-  price: 20,
-  image: "/rosetea.jpg",
-  category: "Beverages",
-  ingredients: ["Tea", "Milk", "Rose Syrup"],
-  nutrition: { calories: 95, protein: "2g", carbs: "14g", fat: "3g" }
-},
+// 
+// {
+//   id: 80,
+//   name: "Bonvita",
+//   price: 25,
+//   image: "/bonvita.jpg",
+//   category: "Beverages",
+//   ingredients: ["Milk", "Bonvita Powder"],
+//   nutrition: { calories: 180, protein: "6g", carbs: "28g", fat: "5g" }
+// },
+// {
+//   id: 81,
+//   name: "Rose Tea",
+//   price: 20,
+//   image: "/rosetea.jpg",
+//   category: "Beverages",
+//   ingredients: ["Tea", "Milk", "Rose Syrup"],
+//   nutrition: { calories: 95, protein: "2g", carbs: "14g", fat: "3g" }
+// },
 {
   id: 82,
   name: "Chukku Kapi",
-  price: 20,
+  price: 15,
   image: "/chukkukapi.jpg",
   category: "Beverages",
   ingredients: ["Dry Ginger", "Coffee", "Jaggery"],
@@ -772,7 +756,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 83,
   name: "Thulsi Tea",
-  price: 20,
+  price: 15,
   image: "/thulsithea.jpg",
   category: "Beverages",
   ingredients: ["Tulsi Leaves", "Tea", "Honey"],
@@ -790,7 +774,7 @@ export const foodItems: FoodItem[] = [
 {
   id: 85,
   name: "Soda Sarbath",
-  price: 30,
+  price: 15,
   image: "/sodasarbath.jpg",
   category: "Beverages",
   ingredients: ["Soda", "Sarbath Syrup"],
@@ -799,25 +783,25 @@ export const foodItems: FoodItem[] = [
 {
   id: 86,
   name: "Bullseye Egg",
-  price: 30,
+  price: 15,
   image: "/bullseye.jpg",
   category: "Egg",
   ingredients: ["Egg", "Oil", "Salt"],
   nutrition: { calories: 120, protein: "7g", carbs: "1g", fat: "9g" }
 },
-{
-  id: 87,
-  name: "Egg Scrambled",
-  price: 40,
-  image: "/eggchikkiyath.jpg",
-  category: "Egg",
-  ingredients: ["Egg", "Onion", "Spices"],
-  nutrition: { calories: 200, protein: "12g", carbs: "4g", fat: "15g" }
-},
+// {
+//   id: 87,
+//   name: "Egg Scrambled",
+//   price: 0,
+//   image: "/eggchikkiyath.jpg",
+//   category: "Egg",
+//   ingredients: ["Egg", "Onion", "Spices"],
+//   nutrition: { calories: 200, protein: "12g", carbs: "4g", fat: "15g" }
+// },
 {
 id: 88,
 name: "Pazham Nira",
-price: 30,
+price: 20,
 image: "/pazhamnira.jpg",
 category: "Snacks",
 ingredients: ["Ripe Banana", "Coconut", "Sugar", "Cardamom"],
@@ -826,7 +810,7 @@ nutrition: { calories: 220, protein: "3g", carbs: "40g", fat: "5g" }
 {
 id: 89,
 name: "Peanut Roast",
-price: 25,
+price: 10,
 image: "/peanut.jpg",
 category: "Snacks",
 ingredients: ["Peanuts", "Salt"],
@@ -835,12 +819,148 @@ nutrition: { calories: 260, protein: "12g", carbs: "10g", fat: "20g" }
 {
 id: 90,
 name: "Popcorn",
-price: 20,
+price: 10,
 image: "/popcorn.jpg",
 category: "Snacks",
 ingredients: ["Corn Kernels", "Butter", "Salt"],
 nutrition: { calories: 180, protein: "4g", carbs: "22g", fat: "9g" }
+},
+{
+id: 91,
+name: "Pineapple",
+price: 10,
+image: "/pineapple.jpg",
+category: "Snacks",
+ingredients: ["Fresh Pineapple"],
+nutrition: { calories: 50, protein: "1g", carbs: "13g", fat: "0g" }
+},
+{
+id: 92,
+name: "Masala Munthiri",
+price: 15,
+image: "/masalamunthiri.jpg",
+category: "Snacks",
+ingredients: ["Cashew Nuts", "Spices", "Salt"],
+nutrition: { calories: 180, protein: "5g", carbs: "10g", fat: "14g" }
+},
+{
+id: 93,
+name: "Chocolate Brownie",
+price: 20,
+image: "/brownie.jpg",
+category: "Dessert",
+ingredients: ["Chocolate", "Flour", "Butter", "Sugar"],
+nutrition: { calories: 250, protein: "4g", carbs: "30g", fat: "12g" }
+},
+{
+id: 94,
+name: "White Forest Cake",
+price: 25,
+image: "/whiteforest.jpg",
+category: "Dessert",
+ingredients: ["Cream", "Cake Base", "White Chocolate"],
+nutrition: { calories: 280, protein: "4g", carbs: "35g", fat: "14g" }
+},
+{
+id: 95,
+name: "Pista Milk",
+price: 15,
+image: "/pistamilk.jpg",
+category: "Beverages",
+ingredients: ["Milk", "Pistachio", "Sugar"],
+nutrition: { calories: 200, protein: "8g", carbs: "22g", fat: "9g" }
+},
+{
+id: 96,
+name: "Watermelon Juice",
+price: 10,
+image: "/watermelonjuice.jpg",
+category: "Beverages",
+ingredients: ["Watermelon"],
+nutrition: { calories: 45, protein: "1g", carbs: "11g", fat: "0g" }
+},
+{
+id: 97,
+name: "Chicken 65",
+price: 50,
+image: "/chicken65.jpg",
+category: "Main",
+ingredients: ["Chicken", "Spices", "Oil"],
+nutrition: { calories: 320, protein: "24g", carbs: "8g", fat: "20g" }
+},
+{
+id: 98,
+name: "Boli Payasam",
+price: 35,
+image: "/bolipayasam.jpg",
+category: "Dessert",
+ingredients: ["Boli", "Milk", "Sugar"],
+nutrition: { calories: 300, protein: "6g", carbs: "45g", fat: "10g" }
+},
+{
+id: 99,
+name: "Manga Irink (Type 1)",
+price: 5,
+image: "/mangadrink1.jpg",
+category: "Beverages",
+ingredients: ["Mango", "Salt", "Chili"],
+nutrition: { calories: 40, protein: "0g", carbs: "10g", fat: "0g" }
+},
+{
+id: 100,
+name: "Manga Items (Type 2)",
+price: 5,
+image: "/mangadrink2.jpg",
+category: "Beverages",
+ingredients: ["Raw Mango", "Sugar", "Salt"],
+nutrition: { calories: 45, protein: "0g", carbs: "11g", fat: "0g" }
+},
+{
+id: 101,
+name: "Therali",
+price: 7,
+image: "/therali.jpg",
+category: "Snacks",
+ingredients: ["Rice Flour", "Jaggery", "Coconut"],
+nutrition: { calories: 150, protein: "3g", carbs: "32g", fat: "3g" }
+},
+{
+id: 102,
+name: "Bread Pizza",
+price: 20,
+image: "/breadpizza.jpg",
+category: "Snacks",
+ingredients: ["Bread", "Cheese", "Vegetables"],
+nutrition: { calories: 240, protein: "8g", carbs: "28g", fat: "11g" }
+},
+{
+id: 103,
+name: "Chilly Mushroom",
+price: 50,
+image: "/chillymushroom.jpg",
+category: "Main",
+ingredients: ["Mushroom", "Chili Sauce", "Spices"],
+nutrition: { calories: 210, protein: "6g", carbs: "20g", fat: "10g" }
+},
+{
+id: 104,
+name: "Kannur Cocktail",
+price: 30,
+image: "/kannurcocktail.jpg",
+category: "Beverages",
+ingredients: ["Fruit Mix", "Syrup", "Ice"],
+nutrition: { calories: 120, protein: "1g", carbs: "28g", fat: "0g" }
+},
+{
+id: 105,
+name: "Sweet Corn (Steamed)",
+price: 20,
+image: "/sweetcorn.jpg",
+category: "Snacks",
+ingredients: ["Sweet Corn", "Salt", "Butter"],
+nutrition: { calories: 110, protein: "3g", carbs: "22g", fat: "2g" }
 }
+
 
 
 ];
