@@ -195,7 +195,7 @@ export const foodItems: FoodItem[] = [
 },
 {
   id: 19,
-  name: "Mul1k Bajji Set 3",
+  name: "Mul1k Baji Set 3",
   price: 15,
   image: "/mulakbajji.jpg",
   category: "Snacks",
