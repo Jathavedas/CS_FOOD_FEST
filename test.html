@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLB Model Viewer</title>
+    
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: sans-serif;
+        }
+
+        /* 2. Set the size and style of the 3D viewer */
+        model-viewer {
+            width: 100%;
+            height: 600px;
+            max-width: 800px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <model-viewer 
+        src="Meshy_AI_Golden_Trophy_with_Re_0324042317_texture.glb" 
+        alt="A 3D model" 
+        camera-controls 
+        auto-rotate 
+        shadow-intensity="1">
+    </model-viewer>
+    <model-viewer 
+        src="Meshy_AI_Golden_Laurel_Trophy_0324051323_texture.glb" 
+        alt="A 3D model" 
+        camera-controls 
+        auto-rotate 
+        shadow-intensity="1">
+    </model-viewer>
+
+</body>
+</html>
